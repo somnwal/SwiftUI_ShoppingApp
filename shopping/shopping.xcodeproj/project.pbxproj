@@ -36,6 +36,12 @@
 		DEEB24B32C5B6CA9008B7F81 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24B22C5B6CA9008B7F81 /* HomeViewModel.swift */; };
 		DEEB24B62C5B6D17008B7F81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24B52C5B6D17008B7F81 /* HomeView.swift */; };
 		DEEB24B92C5B6DE8008B7F81 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24B82C5B6DE8008B7F81 /* ExploreView.swift */; };
+		DEEB24BB2C5B7222008B7F81 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24BA2C5B7222008B7F81 /* TabButton.swift */; };
+		DEEB24BD2C5B75E4008B7F81 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24BC2C5B75E4008B7F81 /* SearchTextField.swift */; };
+		DEEB24BF2C5B789B008B7F81 /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24BE2C5B789B008B7F81 /* SectionTitle.swift */; };
+		DEEB24C12C5B7A2B008B7F81 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24C02C5B7A2B008B7F81 /* ProductCell.swift */; };
+		DEEB24C32C5B8E64008B7F81 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24C22C5B8E64008B7F81 /* CategoryCell.swift */; };
+		DEEB24C52C5B8FF8008B7F81 /* ProducModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24C42C5B8FF8008B7F81 /* ProducModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +94,12 @@
 		DEEB24B22C5B6CA9008B7F81 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DEEB24B52C5B6D17008B7F81 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DEEB24B82C5B6DE8008B7F81 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		DEEB24BA2C5B7222008B7F81 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		DEEB24BC2C5B75E4008B7F81 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		DEEB24BE2C5B789B008B7F81 /* SectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitle.swift; sourceTree = "<group>"; };
+		DEEB24C02C5B7A2B008B7F81 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		DEEB24C22C5B8E64008B7F81 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		DEEB24C42C5B8FF8008B7F81 /* ProducModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				DEEB24AD2C5B60B6008B7F81 /* UserModel.swift */,
+				DEEB24C42C5B8FF8008B7F81 /* ProducModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +240,11 @@
 				DEEB24A02C5A02F2008B7F81 /* LineTextField.swift */,
 				DEEB24A22C5B13E7008B7F81 /* ServiceCall.swift */,
 				DEEB24A42C5B18BC008B7F81 /* Globs.swift */,
+				DEEB24BA2C5B7222008B7F81 /* TabButton.swift */,
+				DEEB24BC2C5B75E4008B7F81 /* SearchTextField.swift */,
+				DEEB24BE2C5B789B008B7F81 /* SectionTitle.swift */,
+				DEEB24C02C5B7A2B008B7F81 /* ProductCell.swift */,
+				DEEB24C22C5B8E64008B7F81 /* CategoryCell.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -415,7 +433,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEB24C32C5B8E64008B7F81 /* CategoryCell.swift in Sources */,
 				DEEB24992C59F3B1008B7F81 /* CountryPickerUI.swift in Sources */,
+				DEEB24C12C5B7A2B008B7F81 /* ProductCell.swift in Sources */,
 				DEEB24942C59ECA8008B7F81 /* SignInView.swift in Sources */,
 				DEEB24922C59E016008B7F81 /* RoundButton.swift in Sources */,
 				DEEB24B32C5B6CA9008B7F81 /* HomeViewModel.swift in Sources */,
@@ -427,8 +447,12 @@
 				DEEB249B2C59F899008B7F81 /* LoginView.swift in Sources */,
 				DEEB24B92C5B6DE8008B7F81 /* ExploreView.swift in Sources */,
 				DEEB24AE2C5B60B6008B7F81 /* UserModel.swift in Sources */,
+				DEEB24BB2C5B7222008B7F81 /* TabButton.swift in Sources */,
 				DEEB24AA2C5B531B008B7F81 /* SignUpView.swift in Sources */,
+				DEEB24BF2C5B789B008B7F81 /* SectionTitle.swift in Sources */,
 				DEEB24902C59DAD3008B7F81 /* UIExtension.swift in Sources */,
+				DEEB24C52C5B8FF8008B7F81 /* ProducModel.swift in Sources */,
+				DEEB24BD2C5B75E4008B7F81 /* SearchTextField.swift in Sources */,
 				DEEB249F2C5A0173008B7F81 /* MainViewModel.swift in Sources */,
 				DEEB24A32C5B13E7008B7F81 /* ServiceCall.swift in Sources */,
 				DEEB24A12C5A02F2008B7F81 /* LineTextField.swift in Sources */,
