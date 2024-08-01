@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		DEEB24532C58CFAC008B7F81 /* shoppingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24522C58CFAC008B7F81 /* shoppingApp.swift */; };
-		DEEB24552C58CFAC008B7F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24542C58CFAC008B7F81 /* ContentView.swift */; };
 		DEEB24572C58CFAD008B7F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEB24562C58CFAD008B7F81 /* Assets.xcassets */; };
 		DEEB245A2C58CFAD008B7F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEB24592C58CFAD008B7F81 /* Preview Assets.xcassets */; };
 		DEEB24642C58CFAE008B7F81 /* shoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24632C58CFAE008B7F81 /* shoppingTests.swift */; };
 		DEEB246E2C58CFAE008B7F81 /* shoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB246D2C58CFAE008B7F81 /* shoppingUITests.swift */; };
 		DEEB24702C58CFAE008B7F81 /* shoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB246F2C58CFAE008B7F81 /* shoppingUITestsLaunchTests.swift */; };
+		DEEB24812C58D2A4008B7F81 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEEB247D2C58D2A4008B7F81 /* Gilroy-Bold.ttf */; };
+		DEEB24822C58D2A4008B7F81 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEEB247E2C58D2A4008B7F81 /* Gilroy-Regular.ttf */; };
+		DEEB24832C58D2A4008B7F81 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEEB247F2C58D2A4008B7F81 /* Gilroy-SemiBold.ttf */; };
+		DEEB24842C58D2A4008B7F81 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEEB24802C58D2A4008B7F81 /* Gilroy-Medium.ttf */; };
+		DEEB248C2C59D815008B7F81 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB248B2C59D815008B7F81 /* WelcomeView.swift */; };
+		DEEB248E2C59D840008B7F81 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEB248D2C59D840008B7F81 /* Launch Screen.storyboard */; };
+		DEEB24902C59DAD3008B7F81 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB248F2C59DAD3008B7F81 /* UIExtension.swift */; };
+		DEEB24922C59E016008B7F81 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24912C59E016008B7F81 /* RoundButton.swift */; };
+		DEEB24942C59ECA8008B7F81 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24932C59ECA8008B7F81 /* SignInView.swift */; };
+		DEEB24972C59F393008B7F81 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = DEEB24962C59F393008B7F81 /* CountryPicker */; };
+		DEEB24992C59F3B1008B7F81 /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24982C59F3B1008B7F81 /* CountryPickerUI.swift */; };
+		DEEB249B2C59F899008B7F81 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB249A2C59F899008B7F81 /* LoginView.swift */; };
+		DEEB249F2C5A0173008B7F81 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB249E2C5A0173008B7F81 /* MainViewModel.swift */; };
+		DEEB24A12C5A02F2008B7F81 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24A02C5A02F2008B7F81 /* LineTextField.swift */; };
+		DEEB24A32C5B13E7008B7F81 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24A22C5B13E7008B7F81 /* ServiceCall.swift */; };
+		DEEB24A52C5B18BC008B7F81 /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24A42C5B18BC008B7F81 /* Globs.swift */; };
+		DEEB24A82C5B2984008B7F81 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24A72C5B2984008B7F81 /* UIKitExtension.swift */; };
+		DEEB24AA2C5B531B008B7F81 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24A92C5B531B008B7F81 /* SignUpView.swift */; };
+		DEEB24AE2C5B60B6008B7F81 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24AD2C5B60B6008B7F81 /* UserModel.swift */; };
+		DEEB24B12C5B65FF008B7F81 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24B02C5B65FF008B7F81 /* MainTabView.swift */; };
+		DEEB24B32C5B6CA9008B7F81 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24B22C5B6CA9008B7F81 /* HomeViewModel.swift */; };
+		DEEB24B62C5B6D17008B7F81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24B52C5B6D17008B7F81 /* HomeView.swift */; };
+		DEEB24B92C5B6DE8008B7F81 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB24B82C5B6DE8008B7F81 /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +58,6 @@
 /* Begin PBXFileReference section */
 		DEEB244F2C58CFAC008B7F81 /* shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEB24522C58CFAC008B7F81 /* shoppingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingApp.swift; sourceTree = "<group>"; };
-		DEEB24542C58CFAC008B7F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEEB24562C58CFAD008B7F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEEB24592C58CFAD008B7F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEEB245F2C58CFAE008B7F81 /* shoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +65,29 @@
 		DEEB24692C58CFAE008B7F81 /* shoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEB246D2C58CFAE008B7F81 /* shoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingUITests.swift; sourceTree = "<group>"; };
 		DEEB246F2C58CFAE008B7F81 /* shoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEEB247D2C58D2A4008B7F81 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		DEEB247E2C58D2A4008B7F81 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		DEEB247F2C58D2A4008B7F81 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		DEEB24802C58D2A4008B7F81 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		DEEB24852C59D672008B7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DEEB248B2C59D815008B7F81 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		DEEB248D2C59D840008B7F81 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DEEB248F2C59DAD3008B7F81 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		DEEB24912C59E016008B7F81 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		DEEB24932C59ECA8008B7F81 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		DEEB24982C59F3B1008B7F81 /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		DEEB249A2C59F899008B7F81 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DEEB249E2C5A0173008B7F81 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DEEB24A02C5A02F2008B7F81 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		DEEB24A22C5B13E7008B7F81 /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
+		DEEB24A42C5B18BC008B7F81 /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
+		DEEB24A72C5B2984008B7F81 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		DEEB24A92C5B531B008B7F81 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DEEB24AD2C5B60B6008B7F81 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DEEB24B02C5B65FF008B7F81 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DEEB24B22C5B6CA9008B7F81 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DEEB24B52C5B6D17008B7F81 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DEEB24B82C5B6DE8008B7F81 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEB24972C59F393008B7F81 /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +139,17 @@
 		DEEB24512C58CFAC008B7F81 /* shopping */ = {
 			isa = PBXGroup;
 			children = (
+				DEEB24A62C5B2963008B7F81 /* Common */,
+				DEEB24892C59D7D7008B7F81 /* UICommon */,
+				DEEB24882C59D7BF008B7F81 /* Viewmodel */,
+				DEEB24872C59D7B8008B7F81 /* Model */,
+				DEEB24862C59D7B2008B7F81 /* View */,
+				DEEB24852C59D672008B7F81 /* Info.plist */,
+				DEEB247C2C58D17D008B7F81 /* font */,
 				DEEB24522C58CFAC008B7F81 /* shoppingApp.swift */,
-				DEEB24542C58CFAC008B7F81 /* ContentView.swift */,
 				DEEB24562C58CFAD008B7F81 /* Assets.xcassets */,
 				DEEB24582C58CFAD008B7F81 /* Preview Content */,
+				DEEB248D2C59D840008B7F81 /* Launch Screen.storyboard */,
 			);
 			path = shopping;
 			sourceTree = "<group>";
@@ -127,6 +179,101 @@
 			path = shoppingUITests;
 			sourceTree = "<group>";
 		};
+		DEEB247C2C58D17D008B7F81 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB247D2C58D2A4008B7F81 /* Gilroy-Bold.ttf */,
+				DEEB24802C58D2A4008B7F81 /* Gilroy-Medium.ttf */,
+				DEEB247E2C58D2A4008B7F81 /* Gilroy-Regular.ttf */,
+				DEEB247F2C58D2A4008B7F81 /* Gilroy-SemiBold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		DEEB24862C59D7B2008B7F81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB24B72C5B6DB5008B7F81 /* Explore */,
+				DEEB24B42C5B6D08008B7F81 /* Home */,
+				DEEB24AF2C5B65EF008B7F81 /* MainTab */,
+				DEEB248A2C59D802008B7F81 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEEB24872C59D7B8008B7F81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB24AD2C5B60B6008B7F81 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEEB24882C59D7BF008B7F81 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB249E2C5A0173008B7F81 /* MainViewModel.swift */,
+				DEEB24B22C5B6CA9008B7F81 /* HomeViewModel.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		DEEB24892C59D7D7008B7F81 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB248F2C59DAD3008B7F81 /* UIExtension.swift */,
+				DEEB24912C59E016008B7F81 /* RoundButton.swift */,
+				DEEB24982C59F3B1008B7F81 /* CountryPickerUI.swift */,
+				DEEB24A02C5A02F2008B7F81 /* LineTextField.swift */,
+				DEEB24A22C5B13E7008B7F81 /* ServiceCall.swift */,
+				DEEB24A42C5B18BC008B7F81 /* Globs.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		DEEB248A2C59D802008B7F81 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB248B2C59D815008B7F81 /* WelcomeView.swift */,
+				DEEB24932C59ECA8008B7F81 /* SignInView.swift */,
+				DEEB249A2C59F899008B7F81 /* LoginView.swift */,
+				DEEB24A92C5B531B008B7F81 /* SignUpView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DEEB24A62C5B2963008B7F81 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB24A72C5B2984008B7F81 /* UIKitExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DEEB24AF2C5B65EF008B7F81 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB24B02C5B65FF008B7F81 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		DEEB24B42C5B6D08008B7F81 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB24B52C5B6D17008B7F81 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DEEB24B72C5B6DB5008B7F81 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB24B82C5B6DE8008B7F81 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +290,9 @@
 			dependencies = (
 			);
 			name = shopping;
+			packageProductDependencies = (
+				DEEB24962C59F393008B7F81 /* CountryPicker */,
+			);
 			productName = shopping;
 			productReference = DEEB244F2C58CFAC008B7F81 /* shopping.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +365,9 @@
 				Base,
 			);
 			mainGroup = DEEB24462C58CFAC008B7F81;
+			packageReferences = (
+				DEEB24952C59F393008B7F81 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
 			productRefGroup = DEEB24502C58CFAC008B7F81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +384,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEB24812C58D2A4008B7F81 /* Gilroy-Bold.ttf in Resources */,
+				DEEB24842C58D2A4008B7F81 /* Gilroy-Medium.ttf in Resources */,
 				DEEB245A2C58CFAD008B7F81 /* Preview Assets.xcassets in Resources */,
 				DEEB24572C58CFAD008B7F81 /* Assets.xcassets in Resources */,
+				DEEB24832C58D2A4008B7F81 /* Gilroy-SemiBold.ttf in Resources */,
+				DEEB24822C58D2A4008B7F81 /* Gilroy-Regular.ttf in Resources */,
+				DEEB248E2C59D840008B7F81 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +415,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEB24552C58CFAC008B7F81 /* ContentView.swift in Sources */,
+				DEEB24992C59F3B1008B7F81 /* CountryPickerUI.swift in Sources */,
+				DEEB24942C59ECA8008B7F81 /* SignInView.swift in Sources */,
+				DEEB24922C59E016008B7F81 /* RoundButton.swift in Sources */,
+				DEEB24B32C5B6CA9008B7F81 /* HomeViewModel.swift in Sources */,
+				DEEB248C2C59D815008B7F81 /* WelcomeView.swift in Sources */,
+				DEEB24B62C5B6D17008B7F81 /* HomeView.swift in Sources */,
+				DEEB24A52C5B18BC008B7F81 /* Globs.swift in Sources */,
 				DEEB24532C58CFAC008B7F81 /* shoppingApp.swift in Sources */,
+				DEEB24A82C5B2984008B7F81 /* UIKitExtension.swift in Sources */,
+				DEEB249B2C59F899008B7F81 /* LoginView.swift in Sources */,
+				DEEB24B92C5B6DE8008B7F81 /* ExploreView.swift in Sources */,
+				DEEB24AE2C5B60B6008B7F81 /* UserModel.swift in Sources */,
+				DEEB24AA2C5B531B008B7F81 /* SignUpView.swift in Sources */,
+				DEEB24902C59DAD3008B7F81 /* UIExtension.swift in Sources */,
+				DEEB249F2C5A0173008B7F81 /* MainViewModel.swift in Sources */,
+				DEEB24A32C5B13E7008B7F81 /* ServiceCall.swift in Sources */,
+				DEEB24A12C5A02F2008B7F81 /* LineTextField.swift in Sources */,
+				DEEB24B12C5B65FF008B7F81 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +599,16 @@
 				DEVELOPMENT_TEAM = AWVWTT6FQB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shopping/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +616,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.somnwal.app.shopping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,11 +637,16 @@
 				DEVELOPMENT_TEAM = AWVWTT6FQB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shopping/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +654,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.somnwal.app.shopping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -588,6 +780,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEEB24952C59F393008B7F81 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEEB24962C59F393008B7F81 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEEB24952C59F393008B7F81 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEEB24472C58CFAC008B7F81 /* Project object */;
 }
