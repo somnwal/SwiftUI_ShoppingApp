@@ -30,14 +30,14 @@ struct HomeView: View {
                 
                 SectionTitle(title: "특가 상품", viewAllText: "더보기") {
                     
-                    
                 }
                 .padding(.horizontal, 20)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack(spacing: 15) {
-                        ForEach( 0 ... 5, id: \.self) { index in
-                            ProductCell {
+                        
+                        ForEach( homeVM.offerArr, id: \.id) { obj in
+                            ProductCell(obj: obj) {
                                 
                             }
                         }
@@ -55,8 +55,9 @@ struct HomeView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack(spacing: 15) {
-                        ForEach( 0 ... 5, id: \.self) { index in
-                            ProductCell {
+                        
+                        ForEach( homeVM.bestArr, id: \.id) { obj in
+                            ProductCell(obj: obj) {
                                 
                             }
                         }
@@ -74,8 +75,8 @@ struct HomeView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack(spacing: 15) {
-                        ForEach( 0 ... 5, id: \.self) { index in
-                            CategoryCell(color: Color(hex: "F8A44C")) {
+                        ForEach( homeVM.typeArr, id: \.id) { obj in
+                            CategoryCell(obj: obj) {
                                 
                             }
                         }
@@ -86,8 +87,8 @@ struct HomeView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack(spacing: 15) {
-                        ForEach( 0 ... 5, id: \.self) { index in
-                            ProductCell {
+                        ForEach(homeVM.listArr, id: \.id) { obj in
+                            ProductCell(obj: obj) {
                                 
                             }
                         }
@@ -95,10 +96,14 @@ struct HomeView: View {
                     .padding(.horizontal, 20)
                     .padding(.vertical, 10)
                 }
-                .padding(.bottom, 15)
+                .padding(.bottom, 30)
             }
         }
+        .alert(isPresented: $homeVM.showError) {
+            Alert(title: Text("알림"), message: Text(homeVM.errorMessage), dismissButton: .default(Text("확인")))
+        }
         .ignoresSafeArea()
+        .padding(.bottom, .bottomInsets * 2)
     }
 }
 

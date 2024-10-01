@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct UserModel: Identifiable, Equatable {
-    var id: Int = 0
+    var id: String = ""
     var username: String = ""
     var name: String = ""
     var mobile: String = ""
@@ -16,7 +16,7 @@ struct UserModel: Identifiable, Equatable {
     var auth_token: String = ""
     
     init(userInfo: NSDictionary) {
-        self.id = userInfo.value(forKey: "user_id") as? Int ?? 0
+        self.id = userInfo.value(forKey: "user_id") as? String ?? ""
         self.username = userInfo.value(forKey: "username") as? String ?? ""
         self.name = userInfo.value(forKey: "name") as? String ?? ""
         self.mobile = userInfo.value(forKey: "mobile") as? String ?? ""

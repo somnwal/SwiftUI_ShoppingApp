@@ -20,6 +20,10 @@ class ServiceCall {
             var request = URLRequest(url: URL(string: url)!,timeoutInterval: 100)
             request.addValue("application/json", forHTTPHeaderField: "Content-Type")
 
+            if(isToken) {
+                request.addValue(MainViewModel.shared.user.auth_token, forHTTPHeaderField: "access_token")
+            }
+            
             request.httpMethod = "POST"
             
             do {

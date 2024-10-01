@@ -21,6 +21,7 @@ struct TabButton: View {
         } label: {
             VStack {
                 Image(icon)
+                    .renderingMode(.template)
                     .resizable()
                     .scaledToFit()
                     .frame(width: 25, height: 25)
