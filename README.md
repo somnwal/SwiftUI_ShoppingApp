@@ -4,6 +4,12 @@ SwiftUI로 제작한 쇼핑몰 앱입니다.
 
 서버 : https://github.com/somnwal/NodeJS_ShoppingApp_Server
 
+<img src="https://github.com/user-attachments/assets/5e5fca1c-23c2-4eaf-94ac-fb0946fbcac0" style="width:200px;">
+<img src="https://github.com/user-attachments/assets/11354ed0-693e-4b8c-b490-8d0454e5e48b" style="width:200px;">
+<img src="https://github.com/user-attachments/assets/3102741c-e155-42c8-a2cc-c6960e3d5071" style="width:200px;">
+<img src="https://github.com/user-attachments/assets/f58af68c-93c6-49ef-978c-d3449d8b060c" style="width:200px;">
+
+
 ## 프로젝트 구조
 
 ```
